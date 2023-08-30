@@ -157,7 +157,7 @@ export const VindecareSpiritualaTehniciStravechi = () => {
       )}
 
       {open && (
-        <div>
+        <div className="px-4">
           <div>
             <div className="relative flex items-center justify-center p-28 mb-12">
               <Image
