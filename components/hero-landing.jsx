@@ -14,7 +14,7 @@ export const Hero = ({ title }) => {
       <div className="z-10 relative flex justify-center items-center flex-col h-[100%] text-white">
         <h1 className="text-5xl font-extrabold text-center mb-5">{title}</h1>
         <p className="text-lg text-center">
-          'Nu poți vindeca trupul fără să vindeci sufletul' (SOCRATE)
+        &apos;Nu poți vindeca trupul fără să vindeci sufletul&apos; (SOCRATE)
         </p>
       </div>
     </div>
