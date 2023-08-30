@@ -24,7 +24,7 @@ export default function Hipnoza() {
 
   return (
     <div className="py-12">
-      <div className="relative flex items-center justify-center p-28 mb-12 max-w-6xl mx-auto">
+      <div className="relative flex items-center justify-center p-28 mb-12 ">
         <Image src="/hipnoza-2.jpeg" alt="image"  fill className="object-cover -z-10" />
         <h1 className="text-3xl text-white font-bold text-center">
           VINDECAREA PRIN HIPNOZA

@@ -11,18 +11,15 @@ export default function Home() {
       <Hero title="CABINET DE IMAGISTICA SPIRITUALA" />
       {/* <ServiciiLanding title="Servicii de vindecare spirituala" /> */}
       <DespreMineLanding />
-      <div className="my-12"> 
-      </div>
+      <div className="my-12"></div>
       <CeEsteVindecareaLanding />
 
       <div className="px-4">
-
-      <TransHipVsTransSam />
+        <TransHipVsTransSam />
       </div>
       <div className="px-4">
-      <CodulEtic />
-
+        <CodulEtic />
       </div>
     </div>
-  )
+  );
 }
