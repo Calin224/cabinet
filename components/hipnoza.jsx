@@ -35,7 +35,7 @@ export default function Hipnoza() {
           VINDECAREA PRIN HIPNOZA
         </h1>
       </div>
-      <div className="max-w-6xl mx-auto flex space-y-4 flex-col px-4">
+      <div className="space-y-5 px-4">
         <p className="text-justify">
           Termenul „hipnoză” denotă o interacțiune între o persoană, denumită
           „hipnotizator”, și o altă persoană, numită „subiect”, în cadrul căreia
