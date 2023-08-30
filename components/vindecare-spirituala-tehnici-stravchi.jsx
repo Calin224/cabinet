@@ -23,7 +23,7 @@ export const VindecareSpiritualaTehniciStravechi = () => {
   };
 
   return (
-    <div>
+    <div className="max-w-6xl mx-auto">
       <div className="relative flex items-center justify-center p-28 mb-12 ">
         <Image
           src="/hipnoza-home.jpeg"
