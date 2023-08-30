@@ -150,6 +150,7 @@ export const VindecareSpiritualaTehniciStravechi = () => {
           <div>
             <div className="relative flex items-center justify-center p-28 mb-12">
               <Image
+               alt="image" 
                 src="/vindecare-home.jpeg"
                 fill
                 className="object-cover -z-10"
@@ -336,6 +337,7 @@ export const VindecareSpiritualaTehniciStravechi = () => {
           <div>
             <div className="relative flex items-center justify-center p-28 mb-12 mt-12">
               <Image
+               alt="image" 
                 src="/vindecare-home-1.jpeg"
                 fill
                 className="object-cover -z-10"
@@ -424,6 +426,7 @@ export const VindecareSpiritualaTehniciStravechi = () => {
           <div>
             <div className="relative flex items-center justify-center p-28 mb-12 mt-12">
               <Image
+               alt="image" 
                 src="/hipnoza-home-2.jpeg"
                 fill
                 className="object-cover -z-10"

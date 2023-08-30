@@ -101,7 +101,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center py-6 mx-2 md:mx-12 flex-col gap-y-4">
       <Link href='/' className="flex gap-x-2 items-center justify-center">
-        <Image src={"/logo.jpeg"} width={30} height={30} />
+        <Image src={"/logo.jpeg"} alt="image"  width={30} height={30} />
         <h1 className="text-xl font-bold">Aurelia - Daniela Stanciulescu</h1>
       </Link>
       <div>

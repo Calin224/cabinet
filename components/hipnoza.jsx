@@ -25,7 +25,7 @@ export default function Hipnoza() {
   return (
     <div className="py-12">
       <div className="relative flex items-center justify-center p-28 mb-12 max-w-6xl mx-auto">
-        <Image src="/hipnoza-2.jpeg" fill className="object-cover -z-10" />
+        <Image src="/hipnoza-2.jpeg" alt="image"  fill className="object-cover -z-10" />
         <h1 className="text-3xl text-white font-bold text-center">
           VINDECAREA PRIN HIPNOZA
         </h1>
@@ -126,7 +126,7 @@ export default function Hipnoza() {
         {open && (
           <div>
             <div className="relative flex items-center justify-center p-28 mb-12">
-              <Image src="/hipnoza-1.jpg" fill className="object-cover -z-10" />
+              <Image src="/hipnoza-1.jpg" alt="image"  fill className="object-cover -z-10" />
               <h1 className="text-2xl text-white font-bold text-center">
                 SCURT ISTORIC AL HIPNOZEI <br /> STUDII RELEVANTE EFECTUATE ÎN
                 DEMONSTRAREA EFICACITĂȚII TEHNICILOR HIPNOTICE

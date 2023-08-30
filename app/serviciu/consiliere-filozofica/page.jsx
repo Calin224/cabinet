@@ -15,7 +15,7 @@ export default function Serviciu() {
   return (
     <div className="py-12">
       <div className="relative flex items-center justify-center p-20 mb-12 max-w-6xl mx-auto">
-        <Image src="/poza-cons.jpg" fill className="object-cover -z-10" />
+        <Image src="/poza-cons.jpg" alt="image" fill className="object-cover -z-10" />
         <h1 className="text-2xl text-white font-bold text-center uppercase">
           CONSILIERE FILOZOFICA
         </h1>

@@ -9,6 +9,7 @@ export const DespreMineLanding = () => {
       <Image
         src="/poza_profil.jpg"
         width={300}
+        alt="image" 
         height={450}
         className="max-w-[300px] mb-10 rounded border shadow-md self-start"
       />

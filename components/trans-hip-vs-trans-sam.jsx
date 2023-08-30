@@ -16,6 +16,7 @@ export const TransHipVsTransSam = () => {
     <div className="max-w-6xl mx-auto mt-12 mb-12">
       <div className="relative flex items-center justify-center p-28 mb-12 mt-12">
         <Image
+         alt="image" 
           src="/transhipvstranssam.jpeg"
           fill
           className="object-cover -z-10"
