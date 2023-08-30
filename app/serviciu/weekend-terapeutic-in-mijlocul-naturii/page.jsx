@@ -54,9 +54,9 @@ export default function Serviciu() {
           <span className="font-bold text-lg">
             CĂLĂTORII GHIDATE, ÎN CADRUL CĂRORA O SĂ FACI CUNOȘTINȚĂ:
           </span>
-          <ul className="list-disc space-y-10 mt-5">
+          <ul className="list-disc space-y-10 mt-5 list-inside">
             <li>
-              <p className="font-bold">CU ANIMALUL TĂU DE PUTERE</p>
+              <span className="font-bold pb-4">CU ANIMALUL TĂU DE PUTERE</span>
               <br />
               <p>
                 Călătoria pentru a-ți întâlni animalul de putere are un rol
@@ -66,7 +66,7 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">CU SINELE TĂU SUPERIOR</p>
+              <span className="font-bold">CU SINELE TĂU SUPERIOR</span>
               <br />
               <p>
                 Sinele tău superior este întregul care te cuprinde pe tine, cel
@@ -79,7 +79,7 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">CU COPILUL TĂU INTERIOR</p>
+              <span className="font-bold">CU COPILUL TĂU INTERIOR</span>
               <br />
               <p>
                 Copilul tău interior trebuie să fie iubit, să se simtă acceptat,
@@ -90,9 +90,9 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">
+              <span className="font-bold">
                 CĂLĂTORII SPIRITUALE DE VINDECAREA ANCESTRALĂ
-              </p>
+              </span>
               <br />
               <p>
                 Ca și noi, strămoșii noștri au fost afectați de anumite traume
@@ -119,7 +119,7 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">EXERCIȚII DE ÎMPĂMÂNTARE</p> <br />
+              <span className="font-bold">EXERCIȚII DE ÎMPĂMÂNTARE</span> <br />
               <p>
                 Împământarea constă în reconectarea corpului cu electronii
                 stocați în pământ, aducându-ne într-o stare de calmitate și
@@ -127,15 +127,15 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">TEHNICI DE RELAXARE PRIN HIPNOZĂ</p>
+              <span className="font-bold">TEHNICI DE RELAXARE PRIN HIPNOZĂ</span>
             </li>
             <li>
-              <p className="font-bold">PLIMBĂRI ȘAMANICE ÎN NATURĂ</p>
+              <span className="font-bold">PLIMBĂRI ȘAMANICE ÎN NATURĂ</span>
             </li>
             <li className="mb-12">
-              <p className="font-bold">
+              <span className="font-bold">
                 CEREMONII DE CONECTARE CU NATURA ÎNCONJURĂTOARE
-              </p>
+              </span>
             </li>
           </ul>
         </p>

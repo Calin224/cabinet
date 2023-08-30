@@ -22,7 +22,7 @@ export const CodulEtic = () => {
       </div>
       <div className="max-w-6xl mx-auto">
         <p className="font-bold">TU:</p> <br />
-        <ul className="list-disc space-y-3">
+        <ul className="list-disc space-y-3 list-inside">
           <li className="text-justify">
             Ai dreptul să cunoști și să înțelegi diferența între modelul
             spiritual de vindecare și cel tradițional. Munca mea nu este de
@@ -78,7 +78,7 @@ export const CodulEtic = () => {
           </li>
         </ul>
 
-        <ul className="list-disc space-y-3 mt-12">
+        <ul className="list-disc space-y-3 mt-12 list-inside">
           <p className="text-md font-bold">EU</p>
           <li className="text-justify">
             Nu o să grăbesc procesul tău de vindecare, e important ca tu să ai

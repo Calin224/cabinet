@@ -72,14 +72,14 @@ export default function Page() {
             <Separator />
           </div>
 
-          <div className="flex gap-x-2 justify-between">
+          <div className="flex gap-x-2 md:justify-between flex-col md:flex-row justify-center items-center">
             <div className="flex gap-x-2">
               <HomeIcon />
               Bloc 12, Strada Popa Șapcă 12, Craiova 200417
             </div>
             <div className="flex gap-x-2">
-                +40 749 087 208
                 <Phone />
+                +40 749 087 208
             </div>
           </div>
         </div>

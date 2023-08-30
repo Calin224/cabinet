@@ -32,9 +32,9 @@ export default function Serviciu() {
             În principiu, un plan de vindecare spirituală în care poate fi
             utilizată consilierea filosofică poate avea următoarea formă:
           </p>
-          <ul className="list-disc space-y-10 mt-5">
+          <ul className="list-disc space-y-10 mt-5 list-inside">
             <li>
-              <p className="font-bold">ETAPA 1</p>
+              <span className="font-bold">ETAPA 1</span>
               <br />
               <p>
                 Identificarea problemei, sau interviul preliminar, ședință în
@@ -44,12 +44,12 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">ETAPA 2</p>
+              <span className="font-bold">ETAPA 2</span>
               <br />
               <p>Identificarea emoțiilor care apar în relație cu problema.</p>
             </li>
             <li>
-              <p className="font-bold">ETAPA 3</p>
+              <span className="font-bold">ETAPA 3</span>
               <br />
               <p>
                 Analiza mijloacelor prin care ar putea fi rezolvată problema. În
@@ -66,7 +66,7 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">ETAPA 4</p>
+              <span className="font-bold">ETAPA 4</span>
               <br />
               <p>
                 In etapa de contemplare se integrează experiența șamanică,
@@ -88,7 +88,7 @@ export default function Serviciu() {
               </p>
             </li>
             <li>
-              <p className="font-bold">ETAPA 5</p> <br />
+              <span className="font-bold">ETAPA 5</span> <br />
               <p>
                 este etapa echilibrului, cea în care clientul este pe deplin
                 conștient de cauza emoțională și spirituală a problemei pentru

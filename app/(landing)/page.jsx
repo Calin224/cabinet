@@ -14,9 +14,15 @@ export default function Home() {
       <div className="my-12"> 
       </div>
       <CeEsteVindecareaLanding />
-      <TransHipVsTransSam />
 
+      <div className="px-4">
+
+      <TransHipVsTransSam />
+      </div>
+      <div className="px-4">
       <CodulEtic />
+
+      </div>
     </div>
   )
 }

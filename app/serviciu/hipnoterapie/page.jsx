@@ -23,7 +23,7 @@ export default function Serviciu() {
   };
 
   return (
-    <div className="py-12 max-w-6xl mx-auto">
+    <div className="py-12 max-w-6xl mx-auto px-4">
       <div className="relative flex items-center justify-center p-28 mb-12">
         <Image src="/hipnoza-1.jpg" alt="image"  fill className="object-cover -z-10" />
         <h1 className="text-2xl text-white font-bold text-center">
@@ -96,7 +96,7 @@ export default function Serviciu() {
         <div className="max-w-6xl mx-auto">
           <table
             border="1"
-            className="w-full border p-4 table-auto border-collapse"
+            className="w-full border p-4 border-collapse "
           >
             <tbody>
               <tr className="">
@@ -294,7 +294,7 @@ export default function Serviciu() {
         </ul>
       </div>
 
-      <div className="flex justify-center items-center py-12">
+      <div className="flex justify-center items-center pt-12">
         {open ? (
           <Button variant="link" onClick={handleClose}>
             Inchide

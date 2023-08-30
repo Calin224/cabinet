@@ -7,7 +7,7 @@ import {
 
 export default function Page() {
   return (
-    <div className="bg-[url('/ddd.jpg')] bg-cover py-20 text-white bg-center">
+    <div className="bg-[url('/ddd.jpg')] bg-cover py-20 text-white bg-center px-4">
       <div className="max-w-6xl mx-auto">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
