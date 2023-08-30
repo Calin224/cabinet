@@ -14,4 +14,4 @@ export const CeEsteVindecareaLanding = () => {
             <VindecareSpiritualaTehniciStravechi />
         </div>
     )
-}
+} 
