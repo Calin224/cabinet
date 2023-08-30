@@ -12,7 +12,6 @@ export const CeEsteVindecareaLanding = () => {
                 <h1 className="text-4xl font-bold text-white text-center">Ce este vindecarea spirituala?</h1>
             </div>
             <VindecareSpiritualaTehniciStravechi />
-            <Hipnoza />
         </div>
     )
 }
