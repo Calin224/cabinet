@@ -45,12 +45,7 @@ const routes = [
     color: "text-gray-500",
   },
   {
-    label: "Codul etic",
-    href: "/codul-etic",
-    color: "text-gray-500",
-  },
-  {
-    label: "Intrebari frecvente",
+    label: "FAQ",
     icon: Banknote,
     href: "/intrebari",
     color: "text-gray-500",
@@ -115,7 +110,7 @@ export default function Navbar() {
         <h1 className="text-xl font-bold text-center">Aurelia - Daniela Stanciulescu</h1>
       </Link>
       <div>
-        <ul className="w-full flex space-x-14">
+        <ul className="w-full flex  flex-wrap justify-center items-center gap-8 mx-4">
            {routes.map((route) => (
             <li key={route.href}>
               {route.label !== "Servicii" ? (

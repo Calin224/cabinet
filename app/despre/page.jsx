@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Book } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -94,7 +95,14 @@ export default function DespreMine() {
               <Book />
               <p className="text-black text-2xl">CV</p>
             </a>
+
+            
           </div>
+          <div className="flex justify-center mt-5 ">
+          <Link href='/codul-etic' className=""><Button variant={'default'} className="text-2xl font-bold px-16 py-4">Cod Etic</Button></Link>
+          </div>
+          
+          
         </div>
       </section>
       
