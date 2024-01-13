@@ -1,16 +1,22 @@
 import { Book } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function DespreMine() {
   return (
-    <div className="bg-[url('/despre-mine-text.jpg')] bg-cover text-white py-12">
-      {/* <section className="bg-[url('https://images.unsplash.com/photo-1530049478161-0780526964f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')] h-[17vh] flex justify-center items-center text-white">
-        <h1 className="text-5xl text-white font-bold">Despre mine</h1>
-      </section> */}
-      <section className="mt-14">
-        <div className="max-w-6xl mx-auto">
-          <p>Aurelia-Daniela Stănciulescu este:</p>
-          <ul className="list-disc list-inside">
+    <div className="grid grid-cols-1 md:grid-cols-2 ">
+      <section className="col-span-1">
+        <Image
+          src={'/despre-imagine2.jpg'}
+          width={800}
+          height={600}
+          className=""
+        />
+      </section>
+      <section className="col-span-1 bg-[#F7F6F9] py-5 pr-5 flex justify-center items-center">
+        <div className="">
+          <p className="font-bold text-2xl mb-12">Aurelia-Daniela Stănciulescu este:</p>
+          <ul className="list-disc list-inside space-y-4">
             <li>
               psihoterapeut în supervizare în specializarea Hipnoterapie
               integrativă, acreditat de Asociația de Cercetare, Consiliere și
@@ -59,7 +65,7 @@ export default function DespreMine() {
               </Link>
             </li>
           </ul>
-          <p className="text-justify mb-5 mt-12">
+          <p className="text-justify mb-5 mt-12 text-wrap">
             Aurelia-Daniela Stănciulescu își propune să vină în ajutorul
             oricărei persoane interesate să-și găsească sensul existențial și să
             trăiască în armonie cu lumea și, mai ales, cu propriul sine.
@@ -78,19 +84,20 @@ export default function DespreMine() {
           </p>
 
           <div className="flex flex-row items-center justify-center space-x-4">
-            <p className="text-white/[0.5]">Curriculum Vitae: </p>
+            <p className="text-black font-bold text-2xl">Curriculum Vitae: </p>
             <a
               href="/CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-zinc-500/10 flex flex-row items-center justify-center space-x-2 px-8 py-2 rounded-lg shadow-xl"
+              className="bg-zinc-500/10 flex flex-row items-center justify-center space-x-2 px-16 py-4 rounded-lg shadow-xl"
             >
               <Book />
-              <p className="text-white">CV</p>
+              <p className="text-black text-2xl">CV</p>
             </a>
           </div>
         </div>
       </section>
+      
     </div>
   );
 }

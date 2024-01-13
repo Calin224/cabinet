@@ -7,10 +7,10 @@ export default function Tarife() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-3 max-w-6xl mx-auto px-5">
                 <Card className="hover:shadow-xl bg-black/[0.3] text-white">
                     <CardHeader>
-                        <CardTitle>Consultanta</CardTitle>
+                        <CardTitle>Consultatie</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>250 lei</p>
+                        <p>250 lei / 90 min.</p>
                     </CardContent>
                 </Card>
                 <Card className="hover:shadow-xl bg-black/[0.3] text-white">
@@ -18,7 +18,7 @@ export default function Tarife() {
                         <CardTitle>Sedinta consiliere de dezvoltare personala si vocationala</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>250 lei</p>
+                        <p>150 lei / 60 min.</p>
                     </CardContent>
                 </Card>
                 <Card className="hover:shadow-xl bg-black/[0.3] text-white">
@@ -26,7 +26,7 @@ export default function Tarife() {
                         <CardTitle>Hipnoterapie</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>300 lei</p>
+                        <p>300 lei / 90 min.</p>
                     </CardContent>
                 </Card>
                 <Card className="hover:shadow-xl bg-black/[0.3] text-white">
@@ -34,7 +34,7 @@ export default function Tarife() {
                         <CardTitle>Diagnosticare spirituala</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>300 lei</p>
+                        <p>300 lei / 90 min.</p>
                     </CardContent>
                 </Card>
                 <Card className="hover:shadow-xl bg-black/[0.3] text-white">
@@ -42,7 +42,7 @@ export default function Tarife() {
                         <CardTitle>Sedinte individuale de vindecare spirituala</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>300 lei</p>
+                        <p>300 lei / 90 min.</p>
                     </CardContent>
                 </Card>
             </div>
@@ -56,7 +56,7 @@ export default function Tarife() {
                     </Card>
                     <Card className='bg-black/[0.3]  text-white'>
                         <CardHeader>
-                            <CardTitle>10 sedinte + 2 gratuite</CardTitle>
+                            <CardTitle>10 sedinte + 3 gratuite</CardTitle>
                         </CardHeader>
                     </Card>
                 </div>

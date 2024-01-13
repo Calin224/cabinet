@@ -45,7 +45,12 @@ const routes = [
     color: "text-gray-500",
   },
   {
-    label: "Inrebari frecvente",
+    label: "Codul etic",
+    href: "/codul-etic",
+    color: "text-gray-500",
+  },
+  {
+    label: "Intrebari frecvente",
     icon: Banknote,
     href: "/intrebari",
     color: "text-gray-500",
@@ -54,6 +59,11 @@ const routes = [
     label: "Contact",
     icon: User2,
     href: "/contact",
+    color: "text-gray-500",
+  },
+  {
+    label: "Blog",
+    href: "/blog",
     color: "text-gray-500",
   },
 ];
@@ -105,15 +115,15 @@ export default function Navbar() {
         <h1 className="text-xl font-bold text-center">Aurelia - Daniela Stanciulescu</h1>
       </Link>
       <div>
-        <ul className="flex gap-x-4">
-          {routes.map((route) => (
+        <ul className="w-full flex space-x-14">
+           {routes.map((route) => (
             <li key={route.href}>
               {route.label !== "Servicii" ? (
                 <Link href={route.href}>{route.label}</Link>
               ) : (
                 <DropdownMenu>
                   <DropdownMenuTrigger>
-                    <p className="flex items-center gap-x-2">{route.label}</p>
+                    <p className="flex items-center gap-x-2 text-center">{route.label} </p>
                   </DropdownMenuTrigger>
                   <DropdownMenuContent>
                     <ul className="flex flex-col gap-y-2">

@@ -63,7 +63,7 @@ export default function Hipnoza() {
             <li>
               Hipnoza este o stare de concentrare prin care subiectul își
               focalizează atenția asupra unei singure idei/stimul senzorial,
-              pentru o anumită secvență temporală [Yapko, 1995, p.8].
+              pentru o anumită secvență temporală <a href="#note-final" className="font-bold text-blue-400">[1]</a>.
             </li>
           </ul>
         </p>
@@ -83,8 +83,7 @@ export default function Hipnoza() {
           nu sunt toate conștiente în același timp. În mod normal, aceste
           sisteme cognitive de control sunt în subordinea unui „ego executiv”,
           structură centrală de control. Când subiectul intră în hipnoză, o
-          serie de controale și monitorizări sunt înlăturate...” [Dafinoiu,
-          Vargha, 2003, p. 19]. Cu alte cuvinte, când subiectul răspunde la
+          serie de controale și monitorizări sunt înlăturate...” <a href="#note-final" className="font-bold text-blue-400">[2]</a>. Cu alte cuvinte, când subiectul răspunde la
           sugestiile terapeutului, memoria și percepția îi sunt distorsionate,
           făcând posibilă apariția altor sisteme de control de care altfel nu
           este conștient. În explicitarea teoriei disocierii, Hilgard utilizează
@@ -412,6 +411,18 @@ export default function Hipnoza() {
             </div>
           </div>
         )}
+
+        <div id="note-final" className="flex flex-col space-y-2">
+          <div>
+            <h1 className="text-xl font-bold ">NOTE FINALE</h1>
+          </div>
+          <div>
+            [Yapko, 1995, p.8]
+
+          </div>
+          
+          <div>[Dafinoiu, Vargha, 2003, p. 19]</div>
+        </div>
       </div>
     </div>
   );

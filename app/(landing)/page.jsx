@@ -14,17 +14,8 @@ export default function Home() {
       {/* <ServiciiLanding title="Servicii de vindecare spirituala" /> */}
       <DespreMineLanding />
       <div className="my-12"></div>
-      {/* <CeEsteVindecareaLanding /> */}
-      <Hipnoza />
-      <VindecareSpiritualaTehniciStravechi />
 
-
-      <div className="px-4">
-        <TransHipVsTransSam />
-      </div>
-      <div className="px-4">
-        <CodulEtic />
-      </div>
+      
     </div>
   );
 }

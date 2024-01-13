@@ -17,7 +17,7 @@ export const CodulEtic = () => {
       <div className="relative flex items-center justify-center p-20 mb-12 max-w-6xl mx-auto">
         <Image src="/codul-etic.jpg" alt="image"  fill className="object-cover -z-10" />
         <h1 className="text-2xl text-white font-bold text-center uppercase">
-          codul etic al vindecatorului spiritual
+          codul etic al terapeutului spiritual
         </h1>
       </div>
       <div className="max-w-6xl mx-auto">
