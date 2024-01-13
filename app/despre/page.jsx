@@ -6,16 +6,58 @@ import Link from "next/link";
 export default function DespreMine() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 ">
-      <section className="col-span-1">
-        <Image
-          src={'/despre-imagine2.jpg'}
-          width={800}
-          height={600}
-          className=""
-        />
-      </section>
+      <div className="col-span-1 bg-[url('/despre-imagine2.jpg')] bg-cover">
+        <div className="opacity-0">
+          <ul>
+            <li>
+              a
+            </li>
+            <li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li><li>
+              a
+            </li>
+          </ul>
+        </div>
+      </div>
       <section className="col-span-1 bg-[#F7F6F9] py-5 pr-5 flex justify-center items-center">
-        <div className="">
+        <div className="mx-6">
           <p className="font-bold text-2xl mb-12">Aurelia-Daniela Stănciulescu este:</p>
           <ul className="list-disc list-inside space-y-4">
             <li>
@@ -96,16 +138,16 @@ export default function DespreMine() {
               <p className="text-black text-2xl">CV</p>
             </a>
 
-            
+
           </div>
           <div className="flex justify-center mt-5 ">
-          <Link href='/codul-etic' className=""><Button variant={'default'} className="text-2xl font-bold px-16 py-4">Cod Etic</Button></Link>
+            <Link href='/codul-etic' className=""><Button variant={'default'} className="text-2xl font-bold px-16 py-4">Cod Etic</Button></Link>
           </div>
-          
-          
+
+
         </div>
       </section>
-      
+
     </div>
   );
 }
